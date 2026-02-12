@@ -1,0 +1,145 @@
+%--------------------------------------------------
+% Resume - Suraj Kumar (v1.0)
+%
+% Author: Suraj Kumar
+% GitHub: https://github.com/ImSurajx
+% LinkedIn: https://linkedin.com/in/itsurajx
+%
+% Description:
+% This is a professional resume written in LaTeX.
+% The file is version-controlled and will be updated
+% as skills, projects, and experience grow over time.
+%
+% License: MIT
+%
+% ---------------- HOW TO USE THIS FILE ----------------
+%
+% 1. If you are new to LaTeX:
+%    - Upload this file to Overleaf (www.overleaf.com)
+%    - Click "Recompile"
+%    - Edit text inside sections (Profile, Skills, Projects, etc.)
+%
+% 2. How LaTeX Works (Very Basic):
+%    - Everything between \begin{document} and \end{document}
+%      is the actual resume content.
+%    - \section*{Section Name} creates a new section.
+%    - \begin{itemize} ... \end{itemize} creates bullet points.
+%    - Text inside {} is formatted text.
+%
+% 3. To Modify:
+%    - Replace my name with yours.
+%    - Update links in the header.
+%    - Edit bullet points carefully.
+%    - Do NOT remove formatting commands unless you understand them.
+%
+% 4. Compile:
+%    - Use PDFLaTeX (default in Overleaf).
+%
+%--------------------------------------------------
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{color}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+%----------MARGINS----------
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.6in}
+\addtolength{\textheight}{1.2in}
+
+\setlist[itemize]{noitemsep, topsep=3pt}
+
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+\begin{document}
+
+%----------HEADING-----------------
+% This section contains your name and contact information.
+\begin{center}
+    {\fontsize{24}{26}\selectfont \textbf{Suraj Kumar}}\\
+    \vspace{4pt}
+    {\small BCA Student (2023--2026) | Frontend Developer | DSA (C++)}\\
+    \vspace{6pt}
+    \href{https://github.com/ImSurajx}{github.com/ImSurajx}
+    \quad • \quad
+    \href{https://www.linkedin.com/in/itsurajx}{linkedin.com/in/itsurajx}
+    \quad • \quad
+    \href{mailto:surajxcode@gmail.com}{surajxcode@gmail.com}
+    \quad • \quad
+    \href{tel:+910000099999}{+91-000009999}
+\end{center}
+
+%----------PROFILE-----------------
+% Short professional summary (2–4 lines max).
+\section*{Profile}
+
+Final-year BCA student and active learner with strong foundations in Data Structures (C++) and frontend development. Experienced in working with large open-source Android codebases and advanced Git workflows. Seeking internship opportunities to apply problem-solving skills and grow within a professional engineering environment.
+
+%----------TECHNICAL SKILLS-----------------
+% List only skills you can confidently explain in interview.
+\section*{Technical Skills}
+
+\begin{itemize}
+    \item \textbf{Languages:} C++, JavaScript
+    \item \textbf{Frontend:} HTML5, CSS3, SCSS
+    \item \textbf{Core Concepts:} Data Structures (Arrays, 2D Arrays, Matrix Operations), DOM Manipulation, Algorithmic Problem Solving
+    \item \textbf{Version Control:} Git, GitHub (Rebasing, Cherry-picking, Conflict Resolution)
+    \item \textbf{Tools:} VS Code, Linux Environment
+\end{itemize}
+
+%----------PROJECTS-----------------
+% Add real projects only with technical clarity.
+\section*{Projects}
+
+\begin{itemize}
+
+    \item \textbf{DOM-Based Rich Text Editor (Figma to Web Implementation)} \\
+    Live: \href{https://dom-based-editor.vercel.app/}{dom-based-editor.vercel.app} \\
+    Repo: \href{https://github.com/ImSurajx/dom-based-editor}{github.com/ImSurajx/dom-based-editor} \\
+    \textit{Technologies: HTML, CSS, JavaScript}
+
+    \begin{itemize}
+        \item Converted Figma design into a fully structured layout architecture.
+        \item Built interactive rich-text editing functionality using core DOM manipulation without external libraries.
+        \item Implemented custom toolbar controls for text formatting and dynamic content updates.
+        \item Managed real-time state changes and structured modular JavaScript logic for maintainability.
+    \end{itemize}
+
+\end{itemize}
+
+%----------OPEN SOURCE EXPERIENCE-----------------
+% Mention technical impact, not emotional storytelling.
+\section*{Open-Source Experience}
+
+\textbf{Android Custom ROM Contributor (Redmi Note 7 - Lavender)} \hfill 6--8 Months
+
+\begin{itemize}
+    \item Maintained unofficial Pixel-based ROM ("Pixel Stable") built on Pixel Experience source for real community users.
+    \item Worked with large Android codebases including device trees, vendor configurations, kernel integration, and Linux-based build systems.
+    \item Practiced advanced Git workflows such as rebasing, cherry-picking, and resolving complex merge conflicts.
+    \item Debugged build failures and optimized configuration issues within CI/CD environments.
+    \item Successfully raised highest community crowdfunding contribution to restore development hardware.
+    \item Selected as a member of the ROM Builder organization (150+ contributors) after multiple evaluation attempts.
+\end{itemize}
+
+%----------EDUCATION-----------------
+% Mention degree and university clearly.
+\section*{Education}
+
+\textbf{Indira Gandhi National Open University (IGNOU)} \hfill 2023 -- 2026 \\
+Bachelor of Computer Applications (BCA)
+
+\end{document}

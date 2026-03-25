@@ -2,6 +2,10 @@
 
 This repository contains the LaTeX source code for my professional resume.
 
+<p align="center">
+  <img src="./assets/preview.png" alt="resume preview" width="600"/>
+</p>
+
 ## 📌 About
 
 - Built using LaTeX

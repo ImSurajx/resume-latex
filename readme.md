@@ -3,7 +3,7 @@
 This repository contains the LaTeX source code for my professional resume.
 
 <p align="center">
-  <img src="./assets/preview-1.1.png" alt="resume preview" width="600"/>
+  <img src="./assets/preview-1.2.png" alt="resume preview" width="600"/>
 </p>
 
 ## 📌 About
